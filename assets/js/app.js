@@ -100,6 +100,7 @@ function createSectionHeader(title) {
     const header = document.createElement('h2');
     header.innerHTML = title;
     header.style.textDecoration = "underline";
+    header.style.textAlign = "center";
 
     return header;
 }
