@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Le nouveau Allociné héhé</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="titre-app">Le nouveau Allociné héhé</h1>
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Rechercher un film ..."
+          />
+        </div>
+
+        <button type="submit" class="btn btn-secondary" id="search">
+          Rechercher
+        </button>
+      </form>
+
+      <div id="movies-searchable"></div>
+      <div id="movies-container"></div>
+    </div>
+<div id="progressBar"></div>
+<div class="scrollPath"></div>
+    <script src="./assets/js/apiTransaction.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
